@@ -8,7 +8,11 @@ public enum ApiEndpoints {
 
     String endpoint;
 
-    private final String HOSTNAME ="http://192.168.8.115:8089";
+    private final String HOSTNAME ="http://192.168.1.4:8089";
+    //"http://192.168.8.115:8089";
+    //192.168.1.4
+    //192.168.1.4:8089
+    //http://172.18.63.193:8089
 
     ApiEndpoints(String endpoint){
         this.endpoint = endpoint;
