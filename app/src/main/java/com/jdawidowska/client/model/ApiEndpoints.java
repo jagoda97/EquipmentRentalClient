@@ -10,7 +10,6 @@ public enum ApiEndpoints {
 
     private final String HOSTNAME ="http://192.168.1.4:8089";
 
-
     ApiEndpoints(String endpoint){
         this.endpoint = endpoint;
     }
